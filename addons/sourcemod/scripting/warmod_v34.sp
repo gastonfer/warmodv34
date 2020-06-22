@@ -1739,7 +1739,7 @@ public Event_Round_End(Handle:event, const String:name[], bool:dontBroadcast)
 		UpdateStatus();
 	}
 	
-	if(GetConVarBool(g_h_custom_hostname))
+	if(GetConVarBool(g_h_custom_hostname) && g_live)
 	{
 		UpdateHostname();
 	}
