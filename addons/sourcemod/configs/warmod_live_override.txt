@@ -1,0 +1,29 @@
+"live_override"
+{
+	"live_first_restart"
+	{
+		"delay"		"1"
+		"text"		"Comienza en 3"
+	}
+
+	"live_second_restart"
+	{
+		"delay"		"1"
+		"text"		"Comienza en 2"
+	}
+
+	"live_third_restart"
+	{
+		"delay"		"3"
+		"text"		"Comienza en 1"
+	}
+
+	"live_finished"
+	{
+		"text1"		"El match a comenzado"
+		"text2"		"Buena suerte y diviertete"
+		"text3"		""
+		"text4"		""
+		"text5"		""
+	}
+}
